@@ -1,0 +1,15 @@
+package io.felipeandrade.pokedex.menu
+
+import android.os.Bundle
+import android.os.PersistableBundle
+import androidx.appcompat.app.AppCompatActivity
+
+class MenuActivity : AppCompatActivity(), MenuContract.MenuView {
+
+
+    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
+        super.onCreate(savedInstanceState, persistentState)
+
+
+    }
+}
