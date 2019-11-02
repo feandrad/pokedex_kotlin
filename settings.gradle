@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':commons', ':data', ':domain'
 rootProject.name='PokeDex Kotlin'
