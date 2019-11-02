@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
 
-class MenuActivity : AppCompatActivity(), MenuContract.MenuView {
+class MenuActivity : AppCompatActivity(), PokeMenuView {
 
 
     override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
