@@ -1,5 +1,7 @@
 package io.felipeandrade.pokedex.search
 
-class PokeSearchPresenter(view: PokeSearchView) {
+import io.felipeandrade.pokedex.base.PokeBasePresenter
+
+class PokeSearchPresenter(view: PokeSearchView) : PokeBasePresenter() {
 
 }

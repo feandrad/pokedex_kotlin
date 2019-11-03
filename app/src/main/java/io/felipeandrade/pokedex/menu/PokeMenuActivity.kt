@@ -8,7 +8,7 @@ import io.felipeandrade.pokedex.course.PokeCourseActivity
 import io.felipeandrade.pokedex.search.PokeSearchActivity
 import kotlinx.android.synthetic.main.menu_activity.*
 
-class PokeMenuActivity : PokeBaseActivity(), PokeMenuView {
+class PokeMenuActivity : PokeBaseActivity<PokeMenuView, PokeMenuPresenter>(), PokeMenuView {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

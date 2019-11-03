@@ -1,7 +1,9 @@
 package io.felipeandrade.pokedex.menu
 
+import io.felipeandrade.pokedex.base.PokeBaseView
 
-interface PokeMenuView {
+
+interface PokeMenuView : PokeBaseView {
 
 
 }
