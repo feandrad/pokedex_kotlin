@@ -12,10 +12,10 @@ import org.koin.dsl.module
 
 
 val applicationModule = module(override = true) {
-    factory { (view: PokeMenuView) -> PokeMenuPresenter(view) }
-    factory { (view: PokeSearchView) -> PokeSearchPresenter(view) }
-    factory { (view: PokeAboutView) -> PokeAboutPresenter(view) }
-    factory { (view: PokeCourseView) -> PokeCoursePresenter(view) }
+//    factory { (view: PokeMenuView) -> PokeMenuPresenter(view) }
+//    factory { (view: PokeSearchView) -> PokeSearchPresenter(view) }
+//    factory { (view: PokeAboutView) -> PokeAboutPresenter(view) }
+//    factory { (view: PokeCourseView) -> PokeCoursePresenter(view) }
 }
 
 val domainModule = module(override = true) {
