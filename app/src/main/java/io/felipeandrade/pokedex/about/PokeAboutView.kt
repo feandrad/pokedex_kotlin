@@ -1,5 +1,7 @@
 package io.felipeandrade.pokedex.about
 
-interface PokeAboutView {
+import io.felipeandrade.pokedex.base.PokeBaseView
+
+interface PokeAboutView : PokeBaseView {
 
 }

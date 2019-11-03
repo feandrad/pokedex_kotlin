@@ -4,7 +4,7 @@ import android.os.Bundle
 import io.felipeandrade.pokedex.PokeBaseActivity
 import io.felipeandrade.pokedex.R
 
-class PokeCourseActivity: PokeBaseActivity(), PokeCourseView {
+class PokeCourseActivity: PokeBaseActivity<PokeCourseView, PokeCoursePresenter>(), PokeCourseView {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

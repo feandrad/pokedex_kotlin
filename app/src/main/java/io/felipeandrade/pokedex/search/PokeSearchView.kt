@@ -1,4 +1,6 @@
 package io.felipeandrade.pokedex.search
 
-interface PokeSearchView {
+import io.felipeandrade.pokedex.base.PokeBaseView
+
+interface PokeSearchView : PokeBaseView {
 }

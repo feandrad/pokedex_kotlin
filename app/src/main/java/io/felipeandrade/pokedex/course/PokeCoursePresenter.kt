@@ -1,5 +1,7 @@
 package io.felipeandrade.pokedex.course
 
-class PokeCoursePresenter(view: PokeCourseView) {
+import io.felipeandrade.pokedex.base.PokeBasePresenter
+
+class PokeCoursePresenter(view: PokeCourseView) : PokeBasePresenter() {
 
 }
