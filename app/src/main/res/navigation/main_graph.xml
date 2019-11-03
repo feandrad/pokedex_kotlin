@@ -7,22 +7,7 @@
     <fragment
         android:id="@+id/pokeMenuFragment"
         android:name="io.felipeandrade.pokedex.ui.menu.PokeMenuFragment"
-        android:label="PokeMenuActivity">
-        <action
-            android:id="@+id/action_pokeMenuActivity_to_pokeSearchActivity"
-            app:destination="@id/pokeSearchFragment" />
-        <action
-            android:id="@+id/action_pokeMenuActivity_to_pokeCourseActivity"
-            app:destination="@id/pokeCourseFragment" />
-        <action
-            android:id="@+id/action_pokeMenuActivity_to_pokeAboutActivity"
-            app:destination="@id/pokeAboutFragment" />
-    </fragment>
-
-    <action
-        android:id="@+id/action_global_pokeMenuActivity"
-        app:destination="@id/pokeMenuFragment"
-        app:launchSingleTop="true" />
+        android:label="PokeMenuFragment" />
 
     <fragment
         android:id="@+id/pokeAboutFragment"

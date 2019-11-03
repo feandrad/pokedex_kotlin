@@ -1,5 +1,6 @@
 package io.felipeandrade.pokedex
 
+import androidx.navigation.NavHostController
 import io.felipeandrade.pokedex.ui.about.PokeAboutPresenter
 import io.felipeandrade.pokedex.ui.about.PokeAboutView
 import io.felipeandrade.pokedex.ui.course.PokeCoursePresenter
@@ -15,10 +16,10 @@ val applicationModule = module(override = true) {
 }
 
 val uiModule = module(override = true) {
-    factory { (view: PokeMenuView) -> PokeMenuPresenter(view) }
-    factory { (view: PokeSearchView) -> PokeSearchPresenter(view) }
-    factory { (view: PokeAboutView) -> PokeAboutPresenter(view) }
-    factory { (view: PokeCourseView) -> PokeCoursePresenter(view) }
+    factory { (view: PokeMenuView, navController: NavHostController) -> PokeMenuPresenter(view, navController) }
+    factory { (view: PokeSearchView, navController: NavHostController) -> PokeSearchPresenter(view, navController) }
+    factory { (view: PokeAboutView, navController: NavHostController) -> PokeAboutPresenter(view, navController) }
+    factory { (view: PokeCourseView, navController: NavHostController) -> PokeCoursePresenter(view, navController) }
 }
 
 val usecaseModule = module(override = true) {

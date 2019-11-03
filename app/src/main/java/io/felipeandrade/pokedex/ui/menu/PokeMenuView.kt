@@ -5,5 +5,4 @@ import io.felipeandrade.pokedex.ui.base.PokeBaseView
 
 interface PokeMenuView : PokeBaseView {
 
-
 }

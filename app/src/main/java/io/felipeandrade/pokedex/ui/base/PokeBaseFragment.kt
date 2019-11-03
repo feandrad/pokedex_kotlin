@@ -4,13 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import androidx.navigation.NavController
-import androidx.navigation.NavHost
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
-import io.felipeandrade.pokedex.R
 
 abstract class PokeBaseFragment : NavHostFragment() {
 
@@ -40,4 +34,5 @@ abstract class PokeBaseFragment : NavHostFragment() {
 
     protected fun inflateView(layout: Int, container: ViewGroup?, inflater: LayoutInflater) =
         inflater.inflate(layout, container, false)
+
 }

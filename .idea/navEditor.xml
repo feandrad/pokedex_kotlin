@@ -8,12 +8,7 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="action_global_pokeMenuActivity">
-                    <value>
-                      <LayoutPositions />
-                    </value>
-                  </entry>
-                  <entry key="pokeAboutActivity">
+                  <entry key="pokeAboutFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -25,7 +20,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="pokeCourseActivity">
+                  <entry key="pokeCourseFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -37,28 +32,28 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="pokeMenuActivity">
+                  <entry key="pokeMenuFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-74" />
-                            <option name="y" value="370" />
+                            <option name="x" value="-116" />
+                            <option name="y" value="365" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_pokeMenuActivity_to_pokeAboutActivity">
+                            <entry key="nav_action_menu_to_about">
                               <value>
                                 <LayoutPositions />
                               </value>
                             </entry>
-                            <entry key="action_pokeMenuActivity_to_pokeCourseActivity">
+                            <entry key="nav_action_menu_to_course">
                               <value>
                                 <LayoutPositions />
                               </value>
                             </entry>
-                            <entry key="action_pokeMenuActivity_to_pokeSearchActivity">
+                            <entry key="nav_action_menu_to_search">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -68,7 +63,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="pokeSearchActivity">
+                  <entry key="pokeSearchFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">

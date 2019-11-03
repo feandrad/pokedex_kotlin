@@ -7,7 +7,7 @@ import org.koin.core.parameter.parametersOf
 
 class PokeSearchFragment : PokeBaseFragment(), PokeSearchView {
 
-    val pokePresenter: PokeSearchPresenter by inject { parametersOf(this) }
+    val pokePresenter: PokeSearchPresenter by inject { parametersOf(this, findNavController(this)) }
 
     override fun getPresenter() = pokePresenter
     override fun getLayoutRes() = R.layout.search_activity

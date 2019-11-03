@@ -1,24 +1,24 @@
 package io.felipeandrade.pokedex.ui.menu
 
-import io.felipeandrade.pokedex.ui.about.PokeAboutFragment
+import androidx.navigation.NavController
+import io.felipeandrade.pokedex.R
 import io.felipeandrade.pokedex.ui.base.PokeBasePresenter
-import io.felipeandrade.pokedex.ui.course.PokeCourseFragment
-import io.felipeandrade.pokedex.ui.search.PokeSearchFragment
 
 
-class PokeMenuPresenter(view: PokeMenuView) : PokeBasePresenter(view) {
+class PokeMenuPresenter(view: PokeMenuView, navController: NavController) :
+    PokeBasePresenter(view, navController) {
 
 
     fun btnSearchClicked() {
-//        navigateTo(PokeSearchFragment::class.java)
+        navigateTo(R.id.pokeSearchFragment)
     }
 
     fun btnCourseClicked() {
-//        navigateTo(PokeCourseFragment::class.java)
+        navigateTo(R.id.pokeCourseFragment)
     }
 
     fun btnAboutClicked() {
-//        navigateTo(PokeAboutFragment::class.java)
+        navigateTo(R.id.pokeAboutFragment)
     }
 
 }

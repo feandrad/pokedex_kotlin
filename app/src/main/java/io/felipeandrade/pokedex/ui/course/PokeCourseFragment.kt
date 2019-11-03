@@ -7,7 +7,7 @@ import org.koin.core.parameter.parametersOf
 
 class PokeCourseFragment : PokeBaseFragment(), PokeCourseView {
 
-    val pokePresenter: PokeCoursePresenter by inject { parametersOf(this) }
+    val pokePresenter: PokeCoursePresenter by inject { parametersOf(this, findNavController(this)) }
 
     override fun getPresenter() = pokePresenter
     override fun getLayoutRes() = R.layout.course_activity
