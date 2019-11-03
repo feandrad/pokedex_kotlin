@@ -7,6 +7,7 @@ import io.felipeandrade.pokedex.about.PokeAboutActivity
 import io.felipeandrade.pokedex.course.PokeCourseActivity
 import io.felipeandrade.pokedex.search.PokeSearchActivity
 import kotlinx.android.synthetic.main.menu_activity.*
+import org.koin.core.context.GlobalContext.get
 
 class PokeMenuActivity : PokeBaseActivity<PokeMenuView, PokeMenuPresenter>(), PokeMenuView {
 
@@ -15,6 +16,7 @@ class PokeMenuActivity : PokeBaseActivity<PokeMenuView, PokeMenuPresenter>(), Po
         super.onCreate(savedInstanceState)
         setContentView(R.layout.menu_activity)
 
+//        presenter = get()
         setClickListeners()
     }
 
