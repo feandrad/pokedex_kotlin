@@ -5,6 +5,9 @@
     <string name="menu_lbl_search">Pesquisa</string>
     <string name="menu_lbl_course">Curso</string>
     <string name="menu_lbl_about">Sobre</string>
+    <string name="search_hint_pkm_num">Número do Pokémon</string>
+    <string name="search_btn_lbl_clear">Limpar</string>
+    <string name="search_btn_lbl_search">Pesquisar</string>
 
 
 </resources>
