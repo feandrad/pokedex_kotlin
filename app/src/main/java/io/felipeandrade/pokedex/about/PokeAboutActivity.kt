@@ -1,6 +1,14 @@
 package io.felipeandrade.pokedex.about
 
-import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import io.felipeandrade.pokedex.PokeBaseActivity
+import io.felipeandrade.pokedex.R
 
-class PokeAboutActivity : AppCompatActivity(), PokeAboutView {
+class PokeAboutActivity : PokeBaseActivity(), PokeAboutView {
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.about_activity)
+    }
 }

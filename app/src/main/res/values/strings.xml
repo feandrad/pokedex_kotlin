@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">PokeDex Kotlin</string>
+
+    <string name="app_name">PokéDex Kotlin</string>
+
+    <string name="menu_lbl_search">Pesquisa</string>
+    <string name="menu_lbl_course">Curso</string>
+    <string name="menu_lbl_about">Sobre</string>
+
+
 </resources>

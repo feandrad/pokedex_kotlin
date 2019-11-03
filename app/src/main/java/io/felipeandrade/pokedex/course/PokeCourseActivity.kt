@@ -1,6 +1,13 @@
 package io.felipeandrade.pokedex.course
 
-import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import io.felipeandrade.pokedex.PokeBaseActivity
+import io.felipeandrade.pokedex.R
 
-class PokeCourseActivity: AppCompatActivity(), PokeCourseView {
+class PokeCourseActivity: PokeBaseActivity(), PokeCourseView {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.course_activity)
+    }
 }

@@ -13,18 +13,26 @@
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:icon,android:allowBackup">
 
-        <activity android:name=".menu.MenuActivity">
+        <activity
+            android:name=".menu.PokeMenuActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".search.PokeSearchActivity" />
+        <activity
+            android:name=".search.PokeSearchActivity"
+            android:screenOrientation="portrait" />
 
-        <activity android:name=".about.PokeAboutActivity" />
+        <activity
+            android:name=".about.PokeAboutActivity"
+            android:screenOrientation="portrait" />
 
-        <activity android:name=".course.PokeCourseActivity" />
+        <activity
+            android:name=".course.PokeCourseActivity"
+            android:screenOrientation="portrait" />
 
 
     </application>
