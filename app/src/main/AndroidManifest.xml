@@ -3,18 +3,17 @@
     package="io.felipeandrade.pokedex">
 
     <application
-        android:name=".application.PokeDexApp"
+        android:name=".PokeDexApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_meowth"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_meowth_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning"
-        tools:replace="android:icon,android:allowBackup">
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
 
         <activity
-            android:name=".menu.PokeMenuActivity"
+            android:name=".ui.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,22 +21,7 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".search.PokeSearchActivity"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".about.PokeAboutActivity"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".course.PokeCourseActivity"
-            android:screenOrientation="portrait" />
-
-
     </application>
-
-
 </manifest>
 
 

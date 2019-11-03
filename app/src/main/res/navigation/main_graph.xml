@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/pokeMenuFragment">
+
+    <fragment
+        android:id="@+id/pokeMenuFragment"
+        android:name="io.felipeandrade.pokedex.ui.menu.PokeMenuFragment"
+        android:label="PokeMenuActivity">
+        <action
+            android:id="@+id/action_pokeMenuActivity_to_pokeSearchActivity"
+            app:destination="@id/pokeSearchFragment" />
+        <action
+            android:id="@+id/action_pokeMenuActivity_to_pokeCourseActivity"
+            app:destination="@id/pokeCourseFragment" />
+        <action
+            android:id="@+id/action_pokeMenuActivity_to_pokeAboutActivity"
+            app:destination="@id/pokeAboutFragment" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_pokeMenuActivity"
+        app:destination="@id/pokeMenuFragment"
+        app:launchSingleTop="true" />
+
+    <fragment
+        android:id="@+id/pokeAboutFragment"
+        android:name="io.felipeandrade.pokedex.ui.about.PokeAboutFragment"
+        android:label="PokeAboutFragment" />
+
+    <fragment
+        android:id="@+id/pokeSearchFragment"
+        android:name="io.felipeandrade.pokedex.ui.search.PokeSearchFragment"
+        android:label="PokeSearchFragment" />
+
+    <fragment
+        android:id="@+id/pokeCourseFragment"
+        android:name="io.felipeandrade.pokedex.ui.course.PokeCourseFragment"
+        android:label="PokeCourseFragment" />
+
+</navigation>
